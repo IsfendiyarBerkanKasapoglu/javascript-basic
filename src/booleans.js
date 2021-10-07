@@ -1,17 +1,20 @@
 function negate(a) {
-  // your code here
+  const negResult = !a;
+  return negResult
 };
 
 function both(a, b) {
-  // your code here
+  const bothResult = a && b;
+  return bothResult
 };
 
 function either(a, b) {
-  // your code here
+  const eitResult = a || b;
+  return eitResult
 };
 
 function none(a, b) {
-  // your code here
+  
 };
 
 function one(a, b) {
